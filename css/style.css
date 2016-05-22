@@ -1,0 +1,139 @@
+body {
+  text-align: center;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+.clear{
+  color:#fff;
+  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/340482/clear.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+.clouds{
+  color:#fff;
+  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/340482/cloudy.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+.cloudy{
+  color:#fff;
+  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/340482/clouds.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+.mist{
+ color: #212B3D;
+ background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/340482/haze.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+.rain{
+ color: #fff;
+ background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/340482/rain.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+.thunderstorm{
+ color: #fff;
+ background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/340482/thunderstorm.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+.haze{
+ color: #212B3D;
+ background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/340482/haze2.jpeg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+.snow{
+ color: #fff;
+ background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/340482/snow.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+#title{
+  font-size: 2em;
+  font-style: bold;
+  font-family: "Ubuntu";
+ padding: 1%;
+  text-shadow: 0 0 0.4em #ccc;
+}
+
+#subtitle{
+  font-size: 2em;
+  margin-bottom: 3%;
+  color: #cc0000;
+  text-shadow: 0 0 0.4em #fff;
+}
+
+
+#icon, #temp{
+  display: inline-block;
+}
+
+img{
+  vertical-align: middle;
+}
+
+#icon{
+  position: relative;
+  bottom: 5px;
+}
+
+#temp{
+  font-size: 1.8em;
+  font-weight: bold;
+  padding-bottom: 1%;
+  color: #ffffff;
+  text-shadow: 0 0 0.2em #333;
+}
+
+.location, #conditions, #wind{
+  display: inline-block;
+}
+
+.details{
+  border: 2px solid #ffffff;
+  color: #7F3320;
+  padding: 2% 1% 2% 1%;
+  margin: 0 auto 0.7% auto; 
+  background-color: #ffffff;
+  border-radius: 0.3em;
+  box-shadow: .2em .2em .2em #444;
+  opacity: 0.7;
+}
+
+#postal {
+  font-size: 1.8em;
+  font-weight: bold;
+  padding-top: 3%;
+  color: #ffffff;
+  text-shadow: 0 0 0.2em #333;
+}
+
+button{
+  margin-top: 3%;
+  font-size: 1.15em;
+  border: 0.1em solid #ffffff;
+  border-radius: 0.2em;
+  background-color: #7F3320;
+  color: #ffffff;
+  padding: 0.5%;
+}
